@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*제목*/
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.product {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.product h1 {
+    width: 1216px;
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+/*서브제목상단바*/
+.product ul.p-n {
+    padding-top: 5px;
+    padding-right: 400px;
+    font-size: 13px;
+}
+
+.product ul.p-n li {
+    float: right;
+    padding-right: 50px;
+}
+
+.product ul.p-n::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*상품1*/
+.product-1 {
+    padding-top: 70px;
+    width: 100%;
+}
+
+.product-1 ul {
+    text-align: center;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.product-1 ul li {
+    display: inline-block;
+}
+
+.product-1 ul li img {
+    width: 386px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.product-1 ul li.pn1 {
+    margin-right: 20px;
+}
+
+.product-1 ul li.pn3 {
+    margin-left: 20px;
+}
+
+/*상품2*/
+.product-2 {
+    padding-top: 70px;
+    width: 100%;
+}
+
+.product-2 ul {
+    text-align: center;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.product-2 ul li {
+    display: inline-block;
+}
+
+.product-2 ul li img {
+    width: 386px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.product-2 ul li.pn4 {
+    margin-right: 20px;
+}
+
+.product-2 ul li.pn6 {
+    margin-left: 20px;
+}
+
+/*상품hover*/
+.product-1 ul li img:hover {
+    opacity: 80%;
+    border: 1px solid #aaaaaa;
+}
+
+
+.product-2 ul li img:hover {
+    opacity: 80%;
+    border: 1px solid #aaaaaa;
+}
+
+/*상품명과가격1*/
+.text1 ul.t-1 li {
+    width: 386px;
+    padding-top: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.text1 ul.t-2 li {
+    font-size: 15px;
+    width: 386px;
+    padding-top: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*상품명과가격2*/
+.text2 ul.t-3 li {
+    width: 386px;
+    padding-top: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.text2 ul.t-4 li {
+    font-size: 15px;
+    width: 386px;
+    padding-top: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

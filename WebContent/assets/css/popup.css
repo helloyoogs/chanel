@@ -1,0 +1,230 @@
+
+/*body{background-color: antiquewhite;}*/
+@charset "utf-8";
+
+.window{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.productpage-wrap {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    z-index: 9999 !important;
+    border: 1px solid #aaaaaa;
+}
+
+/*메인사진*/
+.productpage-wrap .p-1 {
+    width: 250px;
+    height: 293px;
+    height: 291.875px;
+    position: relative;
+    margin-left: 30px;
+    border: 1px solid #aaaaaa;
+}
+
+.productpage-wrap .p-1 img {
+    width: 250px;
+}
+
+.productpage-wrap .p-1-1 {
+    width: 250px;
+    height: 80px;
+    position: relative;
+    left: 290px;
+    top: -290px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/*상품명과가격*/
+.productpage-wrap .p-1-1 li {
+    text-align: center;
+}
+
+.productpage-wrap .p-1-1 li:nth-child(2) {
+    font-size: 16px;
+}
+
+/*상품작은이미지상단*/
+.productpage-wrap ul.p-s1 {
+    width: 280px;
+    height: 75px;
+    padding-left: 19px;
+    position: relative;
+    top: -40px;
+}
+
+.productpage-wrap ul.p-s1 li {
+    border: 1px solid #aaaaaa;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.productpage-wrap ul.p-s1 img {
+    width: 70px;
+}
+
+/*치수선택*/
+.productpage-wrap .button1 {
+    position: relative;
+    top: -350px;
+    left: 330px;
+    width: 379px;
+    height: 34px;
+}
+
+.productpage-wrap .button1 button {
+    width: 75px;
+    height: 45px;
+    font-size: 20px;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+}
+
+.productpage-wrap .button2 {
+    position: relative;
+    top: -330px;
+    left: 330px;
+    width: 379px;
+    height: 34px;
+}
+/* 희영 추가 */
+.productpage-wrap .option_wrap {
+    position: relative;
+    top:-318px;
+    left: 330px;
+    width: 379px;
+    height: 34px;
+}
+/* 희영 추가 */
+.productpage-wrap .button2 button {
+    width: 75px;
+    height: 45px;
+    font-size: 20px;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+}
+.productpage-wrap .option_wrap button {
+    width: 75px;
+    height: 45px;
+    font-size: 20px;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+}
+/*수량*/
+
+.productpage-wrap .option_wrap ul {
+    width: 316px;
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 20px;
+
+}
+
+.productpage-wrap .option_wrap ul.amount-1 {
+    padding-top: 20px;
+}
+/*수량1사이즈*/
+.productpage-wrap .option_wrap ul.amount-1 input.spinner_input{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    border: 0px solid #000;
+}
+
+.productpage-wrap .option_wrap ul.amount-1 li:nth-child(4) {
+    cursor: pointer;
+}
+.productpage-wrap .option_wrap ul.amount-1 li:nth-child(2) {
+    margin-left: 193px;
+    cursor: pointer;
+}
+.productpage-wrap .option_wrap ul li {
+    display: inline-block;
+}
+/*플러스 마이너스사이즈*/
+.productpage-wrap .option_wrap ul li i img{
+    width: 25px;
+    position: relative;
+    top: 7px;
+
+}
+
+
+
+/*상품설명*/
+.productpage-wrap .option_wrap ul.for-product {
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+/*구매버튼*/
+.productpage-wrap .buy {
+    padding-top: 20px;
+}
+
+.productpage-wrap .buy input.btn1 {
+    font-size: 15px;
+    width: 165px;
+    height: 45px;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+}
+
+.productpage-wrap .buy button.btn2 {
+    font-size: 15px;
+    width: 165px;
+}
+
+/*x버튼*/
+.productpage-wrap li.productpage-name .x-btn button {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    left: 660px;
+    top: 10px;
+    width: 19px;
+    height: 19px;
+}
+
+.productpage-wrap li.productpage-name .x-btn button img {
+    width: 19px;
+    height: 19px;
+}
+/*number 버튼 꾸미기 */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}
+/* 버튼 클릭시 색 변경 */
+  .clicked {
+        color: white;
+        background-color: #000 !important;
+  }

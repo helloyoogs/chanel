@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/*body{background-color: aqua;}*/
+.log-wrap {
+ margin: 0 auto;
+    background-color: #fff;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    margin-bottom: 191px;
+    border: 1px solid #aaaaaa;
+    width: 800px;
+}
+
+/*로그인창*/
+
+.log-wrap .log1 {
+    width: 400px;
+    height: 415px;
+}
+
+.log-wrap .log1 input.log1-1 {
+    position: relative;
+    top: 66px;
+    margin-left: 50px;
+    width: 285px;
+    height: 46px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.log-wrap .log1 form {
+    margin-top: 15px;
+    color: #636363;
+}
+
+.log-wrap .log1 button.btn1-1 {
+    position: relative;
+    top: 106px;
+    left: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: #000;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/*로그인아이콘*/
+.log-wrap .log1 .icon-1 {
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+
+}
+
+.log-wrap .log1 .icon-1 li {
+    display: inline-block;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*회원가입창*/
+
+.log-wrap .log2 {
+    position: relative;
+    left: 400px;
+    height: 400px;
+    width: 400px;
+    top: -415px;
+    border-left: 1px solid #aaaaaa;
+}
+
+.log-wrap .log2 ul.log2-2 li {
+    position: relative;
+    top: 196px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.log-wrap .log2 button.btn1-2 {
+    position: relative;
+    top: 38px;
+    left: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: #000;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}

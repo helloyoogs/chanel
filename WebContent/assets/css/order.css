@@ -1,0 +1,305 @@
+@charset "utf-8";
+
+/*body{background-color: antiquewhite;}*/
+.product2{
+	margin-top: 50px;
+}
+.shop{
+    width: 1257px;
+    margin: 0px auto;
+    padding-bottom: 100px;
+}
+/*페이지제목*/
+.shop .title {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.shop .title h1 {
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*서브제목상단바*/
+.shop .title ul.p-n {
+    padding-top: 10px;
+    width: 1257px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.shop .title ul.p-n li {
+    display: inline-block;
+}
+
+.shop .title ul.p-n li:nth-child(1) {
+    float: left;
+    width: 388px;
+}
+
+.shop .title ul.p-n li:nth-child(2) {
+width: 435.5px;
+}
+
+.shop .title ul.p-n li:nth-child(3) {
+    float: right;
+}
+
+/*페이지크기*/
+.shop .product {
+    position: relative;
+    width: 1257px;
+    height: 235px;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+}
+
+.shop .product .product1 img {
+    width: 150px;
+    border: 1px solid #000;
+}
+
+.shop .product .product2 img {
+    width: 150px;
+    border: 1px solid #000;
+    margin-left: 5px;
+}
+
+.shop .product ul.p-n-1 {
+    text-align: center;
+}
+
+.shop .product ul.p-n-1 li {
+    display: inline-block;
+    position: relative;
+    top: -134px;
+
+}
+
+.shop .product ul.p-n-1 :nth-child(1) {
+  right: 240px;
+    top: -165px;
+
+}
+
+.shop .product ul.p-n-1 :nth-child(2) {
+position: relative;
+    left: 167px;
+    
+}
+
+.shop .product ul.p-n-1 :nth-child(3) {
+    float: right;
+}
+
+.shop .product ul.p-n-2 {
+    text-align: center;
+    width: 1257px;
+}
+
+.shop .product ul.p-n-2 li {
+    display: inline-block;
+    position: relative;
+    top: -134px;
+
+}
+
+.shop .product ul.p-n-2 :nth-child(1) {
+    right: 245px;
+    top: -155px;
+}
+
+.shop .product ul.p-n-2 :nth-child(2) {
+   position: relative;
+    left: 140px;
+}
+
+.shop .product ul.p-n-2 :nth-child(3) {
+    float: right;
+}
+
+/*사이즈선택,수량선택1*/
+
+.shop .menu1 {
+   position: relative;
+    right: 117px;
+    top: 200px;
+}
+
+/*치수선택1*/
+.shop .product .menu1 .button1 {
+    position: relative;
+    top: -350px;
+    left: 330px;
+    width: 379px;
+    height: 34px;
+}
+
+.shop .product .menu1 .button1 button {
+    width: 45px;
+    height: 30px;
+    font-size: 17px;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+
+}
+
+.shop .product .menu1 .button2 {
+    position: relative;
+    top:-310px;
+    left: 330px;
+    width: 379px;
+    height: 34px;
+}
+
+.shop .product .menu1 .button2 button {
+   width: 100px;
+    height: 30px;
+    font-size: 14px;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+}
+
+/*수량1*/
+
+.shop .product .menu1 .button2 ul {
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 5px;
+}
+
+.shop .product .menu1 .button2 ul.amount-1 {
+    padding-top: 15px;
+}
+
+.shop .product .menu1 .button2 ul li {
+    display: inline-block;
+}
+
+.shop .product .menu1 .button2 ul li:nth-last-child(4) {
+    margin-left: 5px;
+}
+
+.shop .product .menu1 .button2 ul li:nth-last-child(3) {
+    margin-left: 43px;
+}
+
+.shop .product .menu1 .button2 ul li:nth-last-child(2) {
+    margin-left: 15px;
+}
+
+.shop .product .menu1 .button2 ul li:nth-last-child(1) {
+    margin-left: 15px;
+}
+
+
+
+/*장바구니 하단*/
+.shop .shop-bottom ul button {
+    width: 1257px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 50px;
+}
+
+.shop .shop-bottom {
+    position: relative;
+    width: 1257px;
+    height: 55px;
+    margin: 0px auto;
+   /* bottom: 73px; */
+}
+
+.shop .shop-bottom ul button.btn1-1 {
+    width: 150px;
+    background-color: #000;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.shop .shop-bottom ul li{
+    position: relative;
+    top: 26px;
+float: right;
+}
+
+.shop .shop-bottom ul button.btn1-1:nth-child(2){
+    top: 46px;
+    left: 955px;
+margin-top: 20px;
+}
+.shop .shop-bottom ul button.btn1-1:nth-child(1){
+position: relative;
+    top: 5px;
+    left: -2px;
+}
+
+/*박스*/
+.shop .title ul.p-n li input[type="checkbox"]{
+    margin-right: 2px;
+}
+.shop .product .product1 input[type="checkbox"]{
+height: 177px;
+
+}
+.shop .product .product2 input[type="checkbox"]{
+height: 177px;
+
+}
+/*커서포인트수량*/
+.shop .product .menu1 ul.amount-1 li:nth-child(2):hover{
+    cursor: pointer;
+}
+.shop .product .menu1 ul.amount-1 li:nth-child(4):hover{
+    cursor: pointer;
+}
+.shop .product .menu2 ul.amount-2 li:nth-child(2):hover{
+    cursor: pointer;
+}
+.shop .product .menu2 ul.amount-2 li:nth-child(4):hover{
+    cursor: pointer;
+}
+/*플러스 마이너스사이즈*/
+.shop .product .menu1 ul.amount-1 li img{
+    width: 23px;
+    position: relative;
+    top: 7px;
+
+}
+.shop .product .menu2 ul.amount-2 li img{
+    width: 23px;
+    position: relative;
+    top: 7px;
+
+}
+/*1의 사이즈*/
+.shop .product input.spinner_input{
+    width: 47px;
+    height: 20px;
+    text-align: center;
+    border: 0px solid #000;
+}
+/*number 버튼 꾸미기 */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}
+/*장바구니 버튼 꾸미기*/
+.btn1 {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    background-color: transparent;
+    border-style: none;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+}

@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+/*body{background-color: aqua;}*/
+.log-wrap {
+ margin: 0 auto;
+    background-color: #fff;
+    height: 1279px;
+    position: relative;
+    top: 150px;
+    margin-bottom: 191px;
+    border: 1px solid #aaaaaa;
+    width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.log1{
+	margin-top: 100px;
+	text-align: center;
+}
+
+.log1 hr{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.log1 h1{
+font-size: 20px;
+}
+.log1 p{
+	text-align: left;
+	    margin-left: 47px;
+	    margin-bottom: -12px;
+}
+
+.gender_radio{
+    margin-left: -294px;
+    margin-top: 11px;
+    margin-bottom: 24px;
+	
+}
+
+.gender_radio input[type="radio"] {
+
+width: 21px;
+    height: 21px;
+    line-height: 21px;
+    margin: -2px -2px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100%;
+        border: 2px solid #000;
+        accent-color: black;
+    cursor: pointer;
+
+}
+
+
+/*로그인창*/
+.log-wrap .log1 input[type="text"]{
+    width: 500px;
+    height: 46px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.log-wrap .log1 input[type="password"]{
+    width: 500px;
+    height: 46px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.lable_align{
+		text-align: left;
+}
+.btn_join > button{
+	color: #fff;
+	background: #000;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 30px;
+}

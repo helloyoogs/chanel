@@ -1,0 +1,155 @@
+@charset "utf-8";
+.main{
+    width: 100%;
+    height: 1470px;
+    margin: 0 auto;
+    
+}
+/*배너*/
+.slide{
+    min-width: 1400px;
+    max-width: 1900px;
+    height: 600px;
+    overflow: hidden;
+}
+.main .slide .banner {
+    width: 100%;
+    text-align: center;
+}
+.main .slide .banner:nth-child(1) img{
+    z-index: 9;
+}
+.main .slide .banner:nth-child(3) img{
+    z-index: 10;
+}
+.main .slide .banner:nth-child(2) img{
+    z-index: 10;
+}
+.main .slide .banner img {
+    margin-top: 60px;
+width: 100%;
+}
+
+.main .slide .banner:hover img {
+    opacity: 0.8;
+}
+
+/*상품4가지*/
+h1 {
+    padding-top: 50px;
+
+    font-size: 29.17px;
+    margin-top: 70px;
+    font-weight: bold;
+    height: 29.17px;
+   width: 1257px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product {
+    padding-top: 50px;
+    width: 100%;
+    height: 200px;
+}
+
+.product ul {
+    width: 1257px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.product ul li {
+    display: inline-block;
+}
+
+.product ul li img {
+    width: 308px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    
+}
+
+/*상품4가지 hover*/
+.product ul li img:hover {
+    opacity: 80%;
+    border: 1px solid #aaaaaa;
+}
+
+
+/*배너버튼*/
+.btn{
+     width: 100%;
+    text-align: center;
+}
+.btn ul {
+  position: relative;
+    top: -50px;
+}
+
+.btn ul li {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.btn ul .btn1 {
+    height: 12px;
+    width: 12px;
+    line-height: 12px;
+    border: 1.3px solid #000;
+    border-radius: 50px;
+    background-color: #000;
+}
+
+.btn ul .btn2 {
+    height: 12px;
+    width: 12px;
+    line-height: 12px;
+    border: 1.3px solid #000;
+    border-radius: 50px;
+    background-color: #000;
+}
+
+.btn ul .btn3 {
+    height: 12px;
+    width: 12px;
+    line-height: 12px;
+    border: 1.3px solid #000;
+    border-radius: 50px;
+    background-color: #000;
+}
+
+/*hover배너버튼*/
+
+.btn ul li:hover {
+    height: 12px;
+    width: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #000;
+    border: 1.3px solid #000;
+}
+
+/*동영상*/
+.youtube {
+    padding-top: 17px;
+    text-align: center;
+    width: 1257px;
+    height: 337.5px;
+    margin: 0 auto;
+}
+
+.youtube ul {
+ width: 1257px;
+    height: 337.5px;
+}
+
+.youtube ul li {
+    display: inline-block;}
+.youtube ul li:nth-child(1){
+    padding-right: 25px;
+}
+.youtube ul li:nth-child(2){
+    padding-left: 25px;
+}

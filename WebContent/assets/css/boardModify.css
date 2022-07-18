@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+.table_wrap {
+	width: 100%;
+	padding-top: 100px;
+}
+
+.table_wrap h1{
+	text-align: center;
+	width: 1216px;
+    border-bottom: 1px solid #aaaaaa;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.table_wrap .tbl1 {
+	padding-top: 25px;
+	width: 1216px;
+	margin: 0px auto;
+}
+
+.tbl1>input {
+	float: right;
+	cursor: pointer;
+	width: 100px;
+	height: 40px;
+	background: #000;
+	color: #fff;
+	border: 0;
+	outline: 0;
+	margin-bottom: 10px;
+}
+
+.tbl1>p>input {
+	width: 1216px;
+	height: 45px;
+}
+
+.tbl1>p {
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.upload_file1 {
+	width: 1216px;
+	margin: 0 auto;
+}
+
+.upload_file1 h3 {
+	margin: 10px 10px;
+}
+
+.upload_file1 .files {
+	margin-left: 20px;
+}
+
+.upload_file1 img {
+	cursor: pointer;
+	width: 100px;
+}
+
+.upload_file1 input {
+	display: none;
+}
+
+.upload_file2 {
+	width: 1216px;
+	margin: 0 auto;
+}
+
+.upload_file2 li:first-child {
+	margin-left: 20px;
+}
+
+.upload_file2 li {
+	margin-left: 15px;
+	display: inline-block;
+}
+
+.upload_file2 li input {
+	margin-top: 5px;
+	cursor: pointer;
+	width: 100px;
+	height: 40px;
+	background: #000;
+	color: #fff;
+	border: 0;
+	outline: 0;
+}
+
+.write_submit {
+	width: 1216px;
+	margin: 20px auto;
+}
+
+.write_submit textarea {
+	width: 1216px;
+	height: 300px;
+}
+
+.write_submit button {
+	margin-right: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+	width: 100px;
+	height: 40px;
+	background: #000;
+	color: #fff;
+	border: 0;
+	outline: 0;
+	float: right;
+}
+
+.tbl1::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+

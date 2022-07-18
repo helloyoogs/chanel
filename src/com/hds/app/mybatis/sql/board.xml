@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Board">
+	<select id="getList" parameterType="map" resultType="board">
+	<![CDATA[
+	
+	SELECT boardNum, boardTitle, boardContent,boardId,boardDate,readCount from TBL_BOARD order by boardNum desc 
+	]]>
+	<choose>
+		<when test="skipCount==null">
+		 limit 0,10
+		</when>
+		<when test="skipCount!=null">
+		limit ${skipCount}, 10
+		</when>
+	</choose>
+	</select>
+	
+	<select id="getTotal" resultType="_int">
+		SELECT COUNT(BOARDNUM) FROM TBL_BOARD
+	</select>
+	
+	<insert id="insertBoard" parameterType="board">
+		INSERT INTO TBL_BOARD
+		(BOARDNUM, BOARDTITLE, BOARDCONTENT, BOARDID)
+		VALUES(chanel_nextval('TBL_BOARD'), #{boardTitle}, #{boardContent}, #{boardId})
+	</insert>
+	
+	<select id="getSeq" resultType="_int">
+		SELECT chanel_currval('TBL_BOARD') FROM DUAL
+	</select>
+	
+	<select id="getDetail"  fetchSize="5000"  parameterType="_int" resultType="board" >
+		SELECT BOARDNUM, BOARDTITLE, BOARDCONTENT, BOARDID, BOARDDATE, READCOUNT
+		FROM TBL_BOARD WHERE BOARDNUM = ${boardNum}
+	</select>
+	
+	<update id="updateReadCount" parameterType="_int">
+		UPDATE TBL_BOARD
+		SET READCOUNT = READCOUNT + 1
+		WHERE BOARDNUM = #{boardNum}
+	</update>
+	
+	<delete id="deleteBoard" parameterType="_int">
+		DELETE FROM TBL_BOARD
+		WHERE BOARDNUM = #{boardNum}
+	</delete>
+	
+	<update id="updateBoard" parameterType="board">
+		UPDATE TBL_BOARD
+		SET BOARDTITLE = #{boardTitle}, BOARDCONTENT = #{boardContent}
+		WHERE BOARDNUM = #{boardNum}
+	</update>
+	
+	<!-- 댓글 -->
+	<select id="getReplyList" parameterType="_int" resultType="reply">
+		SELECT REPLYNUM, BOARDNUM, MEMBERID, REPLYCONTENT 
+		FROM TBL_REPLY
+		WHERE BOARDNUM = #{boardNum}
+		ORDER BY REPLYNUM DESC
+	</select>
+	
+	<insert id="insertReply" parameterType="reply">
+		INSERT INTO TBL_REPLY
+		(REPLYNUM, BOARDNUM, MEMBERID, REPLYCONTENT)
+		VALUES(chanel_nextval('TBL_REPLY'), #{boardNum}, #{memberId}, #{replyContent})
+	</insert>
+	
+	<update id="updateReply" parameterType="reply">
+		UPDATE TBL_REPLY
+		SET REPLYCONTENT = #{replyContent}
+		WHERE REPLYNUM = #{replyNum}
+	</update>
+		<delete id="deleteReply" parameterType="_int">
+		DELETE FROM TBL_REPLY
+		WHERE REPLYNUM = #{replyNum}
+	</delete>
+</mapper>
+
+
+
+
+
+
+
+
